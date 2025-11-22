@@ -1,4 +1,4 @@
-BlockchainArchitecture
+Blockchain Architecture
 Decentralized Double-Spending Prevention Protocol Project Overview
 
 This project demonstrates a decentralized protocol designed to prevent the same digital asset from being spent more than once. Unlike traditional centralized systems, this protocol relies on a peer-to-peer network of nodes to validate transactions and maintain a shared ledger, eliminating the need for a central authority.
@@ -8,6 +8,7 @@ Problem Addressed
 In digital transactions, a major challenge is double spending, where a user tries to spend the same digital currency multiple times. Without a central system to verify each transaction, it becomes difficult to prevent fraud. This project simulates a solution for that problem using a decentralized network.
 
 Key Features :
+
 1.Decentralized validation: Transactions are verified by multiple nodes in the network.
 
 2.Double-spending prevention: Each transaction is checked against the ledger and mempool to ensure the same digital asset is not spent twice.
@@ -19,6 +20,7 @@ Key Features :
 5.Simulation of a network: Demonstrates transaction broadcasting and consensus among nodes without a central server.
 
 How the Protocol Works
+
 1.A user creates a transaction specifying the sender, receiver, amount, and a unique transaction ID.
 
 2.The transaction is broadcast to all nodes in the network.
@@ -32,6 +34,7 @@ How the Protocol Works
 6.The confirmed transaction is permanently added to the ledger.
 
 Applications
+
 1.Cryptocurrency systems like Bitcoin and Ethereum.
 
 2.Any decentralized digital payment system.
